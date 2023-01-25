@@ -1,0 +1,44 @@
+:root{font-family: 'Lato', sans-serif; font-size: 16px;}
+
+body{margin: 0; padding: 0;}
+.container{width: 1200px; margin: 0 auto;}
+.full-width{width: 100%;}
+
+.botao-vermelho {background-color: #FF4F4F; width: fit-content; padding: 15px 30px; font-weight: 900; letter-spacing: 0.05em; font-family: 'Lato'; text-transform: uppercase;  border-radius: 10px;}
+.botao-vermelho:hover {background-color: #000; color: #fff;}
+
+header{background-color: #000; border-top: 15px solid #FF4F4F;}
+header .container{padding: 20px 0; display: flex; align-items: center; color: #fff;}
+.logotipo{height: fit-content;}
+
+.menu-principal ul{display: flex; list-style: none; text-transform: uppercase;}
+.menu-principal ul li a{color:#fff; text-decoration: none; padding: 0 10px;}
+.menu-principal ul li a:hover{color:#FF4F4F;}
+
+.header-icon, .header-search{margin-left: 10px;}
+
+input.header-search {padding: 5px;}
+
+.slide{background-color: #000;}
+.slide01{background-image: url(../img/banner_01.png); background-position: center; background-repeat: no-repeat;}
+
+.slide .titulo{font-family: 'Lato'; font-style: normal; font-weight: 900; font-size: 64px; letter-spacing: 0.05em; color: #FFFFFF;}
+.slide .subtitulo{font-family: 'Lato'; font-style: normal; font-weight: 900; font-size: 28px; letter-spacing: 0.2em; color: #fff;}
+
+.slide .container {display: flex; flex-direction: column; justify-content: center; height: 560px;}
+.slide .titulo {font-weight: 900; font-size: 64px; letter-spacing: 0.05em; color: #FFFFFF; margin: 0; line-height: 77px;}
+.slide .subtitulo {font-weight: 900; font-size: 28px; letter-spacing: 0.2em; color: #fff; margin: 0; line-height: 34px;}
+.slide button{margin-top: 30px;}
+
+.icones-home{background-color: #FF4F4F;}
+.lista-icones {display: flex; list-style: none; justify-content: space-between; padding: 0; margin: 0; column-gap: 20px; padding: 15px 0;}
+.lista-icones li {border-radius: 10px; border: solid #fff 1px; width: 100%; padding: 15px; color: #fff; text-align: center;}
+.lista-icones .span{font-size: 22px;}
+.lista-icones span {font-size: 30px; vertical-align: middle; margin-right: 10px;}
+
+.lista-categorias {display: flex; list-style: none; justify-content: space-between; padding: 0; margin: 0; column-gap: 20px; padding: 40px 0;}
+.lista-categorias li {border-radius: 10px; border: solid #fff 1px; width: 100%; color: #fff; text-align: center;}
+.lista-categorias li img {width: 100%;}
+
+.titulo-promo{height: 55px; background-image: url(../img/img-titulo-promo.png); background-repeat: no-repeat; background-position: center;}
+
