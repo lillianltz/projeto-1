@@ -4,6 +4,16 @@ body{margin: 0; padding: 0;}
 .container{width: 1200px; margin: 0 auto;}
 .full-width{width: 100%;}
 
+h2 {font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #000;
+}
+
+
 .botao-vermelho {background-color: #FF4F4F; width: fit-content; padding: 15px 30px; font-weight: 900; letter-spacing: 0.05em; font-family: 'Lato'; text-transform: uppercase;  border-radius: 10px;}
 .botao-vermelho:hover {background-color: #000; color: #fff;}
 
