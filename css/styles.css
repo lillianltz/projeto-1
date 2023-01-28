@@ -14,9 +14,15 @@ h2 {font-style: normal;
     padding: 30px;
 }
 
-
-.botao-vermelho {background-color: #FF4F4F; width: fit-content; padding: 15px 30px; font-weight: 900; letter-spacing: 0.05em; font-family: 'Lato'; text-transform: uppercase;  border-radius: 10px;}
+button{font-family: 'Lato', sans-serif; width: fit-content; padding: 15px 30px; font-weight: 900; letter-spacing: 0.05em; text-transform: uppercase;  border-radius: 10px;}
+.botao-vermelho {background-color: #FF4F4F; cursor: pointer;}
 .botao-vermelho:hover {background-color: #000; color: #fff;}
+.botao-eu-quero {background:transparent; cursor: pointer;}
+.botao-eu-quero:hover {background-color: #000; color: #fff;}
+.botao-branco{background-color:transparent; color:#fff; border-color: #fff; cursor: pointer;}
+.botao-branco:hover{background-color:#FF4F4F; color:#fff; border-color: #fff;}
+.divisor {width: 100%; height: 1px; background-color: #fff;}
+
 
 header{background-color: #000; border-top: 15px solid #FF4F4F;}
 header .container{padding: 20px 0; display: flex; align-items: center; color: #fff;}
@@ -26,7 +32,7 @@ header .container{padding: 20px 0; display: flex; align-items: center; color: #f
 .menu-principal ul li a{color:#fff; text-decoration: none; padding: 0 10px;}
 .menu-principal ul li a:hover{color:#FF4F4F;}
 
-.header-icon, .header-search{margin-left: 10px;}
+.header-icon, .header-search{margin-left: 10px; color: #fff;}
 
 input.header-search {padding: 5px;}
 
@@ -47,21 +53,26 @@ input.header-search {padding: 5px;}
 .lista-icones .span{font-size: 22px;}
 .lista-icones span {font-size: 30px; vertical-align: middle; margin-right: 10px;}
 
+.carousel-home-produtos{margin-top: 40px;}
 .lista-categorias {display: flex; list-style: none; justify-content: space-between; margin: 0; column-gap: 20px; padding: 10px 0;}
-.lista-categorias li {border-radius: 10px; border: solid #fff 1px; width: 100%; color: #fff; text-align: center;}
+.lista-categorias > li {border-radius: 10px; border: solid #fff 1px; width: 100%; color: #fff; text-align: center;}
 .lista-categorias li img {width: 100%;}
 
 .titulo-promo{height: 55px; background-image: url(../img/img-titulo-promo.png); background-repeat: no-repeat; background-position: center; padding-top: 50px; padding-bottom: 50px;}
 
-.imagem-produtos {background: #F6F6F6; height: 350px; display: flex; flex-direction: column; align-items: center; border-radius: 10px;}
-.imagem-produtos h4 {color: #000; font-family: 'Lato', sans-serif; font-weight: 800; margin: 0;}
-
+.lista-produtos {background: #F6F6F6; padding: 15px 10px 35px; display: flex; flex-direction: column; align-items: center; border-radius: 10px; background: linear-gradient(180deg, #F6F6F6 0%, #D6D6D6 100%);}
 .imgem-valores {margin-bottom: 30px; color: #000;}
+.valor-real {font-size: 10px; margin-left: 12px; text-decoration: line-through;}
+.lista-produtos h4 {color: #000; font-family: 'Lato', sans-serif; font-weight: 800; margin: 0;}
 
-.valor-real {font-size: 10px; margin-left: 12px; text-decoration: line-through}
+.lista-produtos:hover{background: #000; color:#fff}
+.lista-produtos:hover .lista-produtos, .lista-produtos:hover .valor-real, .lista-produtos:hover .imgem-valores, .lista-produtos:hover h4, .lista-produtos:hover .botao-eu-quero{color: #fff;}
 
-.botao-eu-quero {background-color: #F6F6F6; width: fit-content; padding: 15px 30px; font-weight: 900; letter-spacing: 0.05em; font-family: 'Lato'; text-transform: uppercase;  border-radius: 10px;}
-.botao-eu-quero:hover {background-color: #000; color: #fff;}
+.produtos-cores{min-height: 35px;}
+.produtos-cores ul {display: flex; list-style: none; column-gap: 5px; margin-bottom: 10px; padding-left: 0;}
+.lista-produtos .produtos-cores ul{display: none;}
+.lista-produtos:hover .produtos-cores ul{display: flex;}
+
 
 .banners-esportes{margin-top: 80px;}
 .banners-esportes img{width: 100%;}
@@ -89,5 +100,18 @@ input.header-search {padding: 5px;}
 .r05{background-image: url(../img/marcas/logo-marcas-carrossel-nike.png);}
 .r06{background-image: url(../img/marcas/logo-marcas-carrossel-puma.png);}
 
-.footer-manu{height: 300px; background: #000;}
-.footer-empresa {background-color: #313131; font-size: 1em; color: #FFFFFF; padding: 10px; text-align: center;}
+
+footer, footer a, footer h3{color: #fff; text-decoration: none;}
+footer a:hover{color: #FF4F4F;}
+footer ul{list-style-type: none; padding-left: 0;}
+footer h3{margin-top: 0;}
+.footer-main{padding: 70px 0; background: #000;}
+.footer-main .container{display: flex; justify-content: space-between;}
+.footer-empresa {background-color: #313131; font-size: 0.8em; letter-spacing: 1px; color: #FFFFFF; padding: 15px 0; text-align: center;}
+.footer1{display: flex; flex-direction: column; row-gap: 25px;}
+.footer-redes-sociais {margin: 0; display: flex; flex-direction: row; justify-content: flex-start; flex-wrap: wrap; padding-left: 0; column-gap: 10px;}
+.footer-redes-sociais svg {width: 17px; height: 17px;}
+.footer-redes-sociais .botao-branco {padding: 13px 15px;}
+.colunas-footer {padding: 15px;}
+.colunas-footer:first-child {padding-left: 0px;}
+.colunas-footer:last-child {padding-right: 0px;}
