@@ -1,0 +1,35 @@
+
+.indicacao-menu-navbar {background: #F5F5F5; padding: 1px;}
+.indicacao-menu-navbar ul {display: flex; list-style: none}
+.indicacao-menu-navbar ul a {text-decoration: none; padding: 10px;}
+
+.link-pagina-atual a {color: red;}  
+section { margin: auto; width: 1200px; }
+h2{text-align: left; margin: 0;}
+
+.border{border-bottom: 2px #000000 solid; width: 1200px;}
+.pag{display: flex; justify-content: space-between; align-items:flex-end;}
+.result-pag{ display: inline-flex; padding: 10px;}
+.result-pag h3{margin-right: 10px; font-weight: 500;}
+#select-qtdade-pag{height: 30px; margin: auto;}
+
+
+.colum{display: flex; width: 1200px; margin: auto;}
+.filter{width: 30%;}
+section .container{width: 100%;}
+
+.corrt{margin-bottom: 40px;}
+
+.filter-border {border: 1px #000000 solid;  margin: 30px; text-align: center; border-radius: 10px;}
+.form-marca{text-align: left; margin-left: 30px;}
+.button-filter{text-align:left; border: none; color: red; text-decoration: underline; padding: 20px 0; cursor: pointer; background-color: white;}
+.form-n{padding: 0  20px 0 30px; text-align: left;}
+.filter-number{padding: 10px; margin: 2px; border-radius: 10px; cursor: pointer; font-weight: 700; border: 1px #000000 so;}
+:hover.filter-number{background-color: #000000; color: #F5F5F5;}
+
+.border-top{border-top: 2px #000000 solid; width: 1200px;}
+.pag-tela {margin: 40px 10px; text-align: center;}
+.number-pag{font-size: 1.2em; margin: 10px; text-decoration:none; font-weight: 600; color: #000000;}
+.button-filter {margin-right: 90px;}
+
+
