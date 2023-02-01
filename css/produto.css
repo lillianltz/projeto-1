@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .nav-bar {
     background-color: #F0EEED;
     height: 45px;
@@ -21,4 +22,29 @@
 
 .actual-page {
     color: #FF4F4F !important;
+=======
+.nav-bar {
+    background-color: #F0EEED;
+    height: 45px;
+    padding: 1px;
+}
+
+.path-bar ul {
+    display: flex;
+    list-style: none;
+    font-size: 14;
+    margin-left: 125px;
+    position: absolute;
+    letter-spacing: 0.05em;
+
+}
+
+.path-bar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.actual-page {
+    color: #FF4F4F !important;
+>>>>>>> 2e58b51d64974bc309b562471cd9fe331b9e99dc
 }
