@@ -1,8 +1,13 @@
 :root{font-family: 'Lato', sans-serif; font-size: 16px;}
 
 body{margin: 0; padding: 0;}
+<<<<<<< HEAD
 .m-4{margin: 4rem 0;}
+=======
+main{margin: 4rem 0;}
+>>>>>>> 2716438c49c2fbfea82ea3f927feeff1234dca1e
 .container{width: 1200px; margin: 0 auto;}
+
 
 
 
@@ -64,7 +69,11 @@ input.header-search {padding: 5px;}
 .lista-icones span {font-size: 30px; vertical-align: middle; margin-right: 10px;}
 
 .carousel-home-produtos{margin-top: 40px;}
+<<<<<<< HEAD
 .lista-categorias {display: flex; list-style: none; justify-content: space-between; margin: 0; column-gap: 20px; padding: 10px 0}
+=======
+.lista-categorias {display: flex; flex-wrap: wrap; list-style: none; justify-content: space-between; margin: 0; column-gap: 20px; padding: 10px 0;}
+>>>>>>> 2716438c49c2fbfea82ea3f927feeff1234dca1e
 .lista-categorias > li {border-radius: 10px; border: solid #fff 1px; color: #fff; text-align: center;}
 .lista-categorias li img {width: 100%;}
 .lc2{flex-wrap: wrap;}
