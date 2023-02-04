@@ -1,5 +1,5 @@
 .link-pagina-atual a {color: red;}  
-<<<<<<< HEAD
+
 .login, .cadastro{border: black solid 1px; margin: auto; border-radius: 10px; padding: 2rem 3rem;}
 .login{width:calc(70% - 4rem)}
 
@@ -8,15 +8,6 @@
 .button-login {display: flex; justify-content: space-between; align-items: center;}
 .button-login button, .button-cadastro button{border: none; padding: 10px 60px; margin-left: 0px;}
 .button-cadastro {display: flex; justify-content: flex-end; margin-top: 24px; margin-bottom: 24px;}
-=======
-.login {border: black solid 1px; width:calc(50% - 3rem); margin: auto; border-radius: 10px; padding: 2rem 3rem;}
-
-#input-login {display: flex; flex-direction: column;}
-
-
-.button-login {display: flex; justify-content: space-between; align-items: center;}
-.button-login button{border: none; padding: 10px 60px; margin-left: 0px;}
->>>>>>> 2716438c49c2fbfea82ea3f927feeff1234dca1e
 
 .esqueci-senha{color: black;}
 .msg-criarConta{margin: auto; text-align: center;}
@@ -39,11 +30,8 @@ h2{text-align: left; margin: 0;}
 h3 strong{color: red; padding-right: 10px;}
 h3{font-weight: 400; font-size: 1em;}
 
-<<<<<<< HEAD
 
 .flex-2 {display: flex; width: 1200px; gap: 10px; margin: auto;}
 .label-line {display: flex; justify-content: space-between; padding-right: 15px;}
 .input-line .in-1{width: 79%; margin-right: 5px;}
 .input-line .in-2{width: 10%;}
-=======
->>>>>>> 2716438c49c2fbfea82ea3f927feeff1234dca1e
