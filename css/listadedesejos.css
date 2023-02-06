@@ -1,0 +1,10 @@
+.lista-desejos {
+    background: #F6F6F6; 
+    padding: 15px 10px 35px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    border-radius: 10px; 
+    background: linear-gradient(180deg, #F6F6F6 0%, #D6D6D6 100%);
+
+}

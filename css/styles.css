@@ -72,10 +72,10 @@ input.header-search {padding: 5px;}
 
 .titulo-promo{height: 55px; background-image: url(../img/img-titulo-promo.png); background-repeat: no-repeat; background-position: center; padding-top: 50px; padding-bottom: 50px;}
 
-.lista-produtos {background: #F6F6F6; padding: 15px 10px 35px; display: flex; flex-direction: column; align-items: center; border-radius: 10px; background: linear-gradient(180deg, #F6F6F6 0%, #D6D6D6 100%);}
 .imgem-valores {margin-bottom: 30px; color: #000;}
 .valor-real {font-size: 10px; margin-left: 12px; text-decoration: line-through;}
 .lista-produtos h4 {color: #000; font-family: 'Lato', sans-serif; font-weight: 800; margin: 0;}
+.lista-produtos {background: #F6F6F6; padding: 15px 10px 35px; display: flex; flex-direction: column; align-items: center; border-radius: 10px; background: linear-gradient(180deg, #F6F6F6 0%, #D6D6D6 100%);}
 
 .lista-produtos:hover{background: #000; color:#fff}
 .lista-produtos:hover .lista-produtos, .lista-produtos:hover .valor-real, .lista-produtos:hover .imgem-valores, .lista-produtos:hover h4, .lista-produtos:hover .botao-eu-quero{color: #fff;}
